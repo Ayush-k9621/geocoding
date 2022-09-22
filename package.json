@@ -31,5 +31,7 @@
     "vite": "^2.9.9"
   },
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "@react-google-maps/api": "^2.12.2"
+  }
 }

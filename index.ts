@@ -14,12 +14,12 @@ let response: HTMLPreElement;
 
 function initMap(): void {
   map = new google.maps.Map(document.getElementById("map") as HTMLElement, {
-    zoom: 8,
+    zoom: 4,
     center: { lat: -34.397, lng: 150.644 },
     mapTypeControl: false,
   });
   geocoder = new google.maps.Geocoder();
-
+  
   const inputText = document.createElement("input");
 
   inputText.type = "text";
